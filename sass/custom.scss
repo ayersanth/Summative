@@ -1,0 +1,66 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: black;
+}
+
+.container-fluid {
+	padding: 0;
+	margin: 0;
+}	
+
+.spider {
+	width: 100%;
+	margin: auto;
+}	
+
+#arrowCont {
+	text-align: center;
+}
+
+.arrow {
+	width: 70px;
+}
+
+#mapBox {
+	height: 0;
+	transition: 0.5s;
+	z-index: 5;
+	overflow-y: hidden;
+}
+
+#map {
+	height: 500px;
+	width: 100%;	
+}	
+
+.marker {
+    background-image: url('mapbox-icon.png');
+    background-size: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+.botBorder {
+    height: 0px;
+    transition: 0.3s;
+}
+
+.accomodation {
+	display: none;
+	position: absolute;
+	bottom: 300px;
+}
+
+.text {
+	left: 50px;
+}
+
+ 
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {}
